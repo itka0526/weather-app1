@@ -1,0 +1,51 @@
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.weather button {
+    margin: 1rem 0;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather section {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Shrikhand", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
